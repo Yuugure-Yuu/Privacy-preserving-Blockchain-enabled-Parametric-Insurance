@@ -44,7 +44,7 @@ Enhanced verification:
 
 
 
-Unbatched verification:
+Sonic verification:
 
 ![1](graphs//1.png)
 
@@ -54,17 +54,21 @@ If we assume that Necessary SRS elements are not stored on chain during deployme
 
 
 
-Deployment for Enhanced verifier:
+Deployment for Enhanced+ verifier:
 
 ![1](graphs//5.png)
 
 
 
-Enhanced verification:
+Enhanced+ verification:
 
 ![1](graphs//6.png)
 
 
+
+If we apply a general Master contract and deploy slave contract for each insuree, then Deployment for Slave Contract:
+
+![1](graphs//7.png)
 
 
 
@@ -72,17 +76,17 @@ We can estimate the transaction fee regarding [ETH price by the end of 2022 (ETH
 
 
 
-| Transaction                              | Gas Cost | Estimated USD  |
-| ---------------------------------------- | -------- | -------------- |
-| Contract Deployment                      | 3194644  | 76.6145913368  |
-| Contract Deployment (Enhanced Verifier)  | 2884986  | 69.1883112492  |
-| Enhanced Verification                    | 437370   | 10.489094814   |
-| Sonic Verification                       | 1740170  | 41.733104974   |
-| Enhanced Contract & Verification         | 3322356  | 79.6774060632  |
-| Sonic Contract & Verification            | 4934814  | 118.3476963108 |
-| Contract Deployment (Enhanced+ Verifier) | 2566978  | 61.5617797916  |
-| Enhanced+ Verification                   | 426877   | 10.2374495894  |
-| Enhanced+ Contract & Verification        | 2993855  | 71.799229381   |
+| Transaction                                | Gas Cost | Estimated USD |
+| ------------------------------------------ | -------- | ------------- |
+| Contract Deployment (Sonic)                | 2667196  | 63.96523      |
+| Sonic Verification                         | 1622349  | 38.9075       |
+| Contract Deployment (Enhanced Verifier)    | 2677451  | 64.21117      |
+| Enhanced Verification                      | 341299   | 8.185101      |
+| Contract Deployment (Enhanced+ Verifier)   | 2334127  | 55.9775       |
+| Enhanced+ Verification                     | 315206   | 7.559333      |
+| Subcontract Deployment (Enhanced Verifier) | 155786   | 3.736091      |
+
+
 
 
 
